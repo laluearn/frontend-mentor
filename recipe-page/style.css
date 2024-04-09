@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    background-color: var(--eggshell);
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    background-color: var(--white);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 35px;
+    width: 50%;
+    border-radius: 30px;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 670px;
+}
+
+.title {
+    color: var(--dark-charcoal);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.description {
+    color: var(--wenge-brown);
+    margin-top: 20px;
+}
+
+.preparation-part {
+    background-color: var(--rose-white);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.preparation-part h3 {
+    color: var(--dark-raspberry);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.ingredients-part {
+    margin: 30px 0px;
+}
+
+.ingredients-part li {
+    color: var(--wenge-brown);
+}
+
+span {
+    font-weight: bold;
+}
+
+ul li{
+    margin-left: 20px;
+    line-height: 30px;
+    color:var(--dark-charcoal);
+    font-size: 1rem;
+    padding-left: 16px;
+}
+
+ul li::marker {
+    color: var(--dark-charcoal);
+    font-size: 0.7rem;
+}
+.subtitle {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: var(--nutmeg);
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.instructions-part {
+    margin: 30px 0px;
+}
+.instructions-part li {
+    color: var(--wenge-brown);
+}
+ol li{
+    margin-left: 30px;
+    line-height: 30px;
+    color:var(--dark-charcoal);
+    font-size: 1rem;
+    padding-left: 16px;
+}
+
+ol li::marker {
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+.nutrition-part {
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+}
+
+tr td {
+    padding: 10px;
+    border-bottom: 1px solid var(--light-grey);
+    text-align: left;
+    color: var(--wenge-brown);
+}
+
+tr:last-child td{
+    border-bottom: 0;
+}
+
+.kcal {
+    font-weight: bold;
+    color: var(--nutmeg);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: var(--dark-charcoal); 
+}
